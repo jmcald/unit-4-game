@@ -33,7 +33,6 @@ $(document).ready(function(){
         var guessScore = 0;
 
         $("#your-score").text(guessScore);
-
     }
 
     function win() {
@@ -45,7 +44,6 @@ $(document).ready(function(){
         $("#wins").text(winCount);
 
         reset();
-
     }
 
     function lose() {
@@ -57,7 +55,6 @@ $(document).ready(function(){
         $("#losses").text(lossCount);
 
         reset();
-
     }
 
     $("#amethyst").on ('click', function(){
@@ -123,5 +120,4 @@ $(document).ready(function(){
               lose();
             }  
     })
-
 })
